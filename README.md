@@ -1,1 +1,1 @@
-# semeval-legal-ner
+# Legal Named Entities Extraction (L-NER)
