@@ -6,4 +6,4 @@ The baseline model makes use of spacy-transformers to evaluate legal documents w
 We have built the model to take in the data of the LegaEval dataset and process the input into vectors using the tok2vec subnetwork\cite{tok2vec} for mapping tokens into vector representations followed by identifying the entities using a transition-based parser model\cite{transitionbasedparser} consisting of 2 subnetworks. 
 
 
-<img width="450" alt="Model Architecture" src="">
+<img width="700" alt="Model Architecture" src="https://github.com/maazshaik/semeval-legal-ner/blob/main/sysdesign.png">
