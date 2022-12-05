@@ -7,11 +7,11 @@ We have built the model to take in the data of the LegaEval dataset and process 
 
 ## System Design
 
+<img width="700" alt="Model Architecture" src="https://github.com/maazshaik/semeval-legal-ner/blob/main/sysdesign.png">
+
 The model consists of 2 segments. The first segment is to embed tokens into context-independent word vector representations which are performed using the Tok2Vec.v2 architecture with MultiHashEmbed being used. This model passes data through a feed-forward subnetwork to build a mixed representation of the word. A MaxoutWindowEncoder is also used to encode context using convolutions with maxout activation, layer normalization, and residual connections.
 
 The next segment of the model consists of the actual ner which takes into vector representations of a word generated in the previous step and makes use of the transition-based parser model to identify the custom entities. Transition-based parsing is a structured prediction technique where a series of state transitions are used to the structure of a sentence. This neural network model consists of 3 subnetworks, the first for mapping each token into a vector representation which is executed once for every batch. The second layer constructs a feature vector for every token, and feature pair. The final layer is a feed-forward network that predicts scores from state representation.
-
-<img width="700" alt="Model Architecture" src="https://github.com/maazshaik/semeval-legal-ner/blob/main/sysdesign.png">
 
 ## Experimental Results
 
