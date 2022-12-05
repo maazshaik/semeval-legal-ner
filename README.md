@@ -16,3 +16,22 @@ The next segment of the model consists of the actual ner which takes into vector
 ## Experimental Results
 
 <img width="700" alt="Exp Results" src="https://github.com/maazshaik/semeval-legal-ner/blob/main/images/metrics.png">
+
+## References
+
+1. Kalamkar, P., Agarwal, A., Tiwari, A., Gupta, S., Karn, S., Raghavan, V.: Named
+entity recognition in indian court judgments. arXiv preprint arXiv:2211.03442
+(2022)
+2. Spacy 3.4: Tok2vec architecture
+3. Spacy 3.4: Transition-based parser
+4. Ushio, A., Camacho-Collados, J.: T-ner: An all-round python library for
+transformer-based named entity recognition. arXiv preprint arXiv:2209.12616
+(2022)
+5. Dozier, C., Kondadadi, R., Light, M., Vachher, A., Veeramachaneni, S., Wudali, R.:
+Named entity recognition and resolution in legal text. In: Semantic Processing of
+Legal Texts. Springer (2010) 27–43
+6. Spacy 3.4: Spacy training pipelines and models
+7. Kaggle: Ner using spacy
+8. Spacy 3.4: Docbin file
+
+
