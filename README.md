@@ -7,7 +7,7 @@ We have built the model to take in the data of the LegaEval dataset and process 
 
 ## System Design
 
-<img width="700" alt="Model Architecture" src="https://github.com/maazshaik/semeval-legal-ner/blob/main/sysdesign.png">
+<img width="700" alt="Model Architecture" src="https://github.com/maazshaik/semeval-legal-ner/blob/main/images/sysdesign.png">
 
 The model consists of 2 segments. The first segment is to embed tokens into context-independent word vector representations which are performed using the Tok2Vec.v2 architecture with MultiHashEmbed being used. This model passes data through a feed-forward subnetwork to build a mixed representation of the word. A MaxoutWindowEncoder is also used to encode context using convolutions with maxout activation, layer normalization, and residual connections.
 
@@ -15,4 +15,4 @@ The next segment of the model consists of the actual ner which takes into vector
 
 ## Experimental Results
 
-<img width="700" alt="Exp Results" src="https://github.com/maazshaik/semeval-legal-ner/blob/main/metrics.png">
+<img width="700" alt="Exp Results" src="https://github.com/maazshaik/semeval-legal-ner/blob/main/images/metrics.png">
