@@ -15,4 +15,4 @@ The next segment of the model consists of the actual ner which takes into vector
 
 ## Experimental Results
 
-<img width="700" alt="Exp Results" src="https://github.com/maazshaik/semeval-legal-ner/blob/main/sysdesign.png">
+<img width="700" alt="Exp Results" src="https://github.com/maazshaik/semeval-legal-ner/blob/main/metrics.png">
